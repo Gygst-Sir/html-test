@@ -18,7 +18,7 @@
       <li>
         For live help with simple questions, check out
         <a :href="discordURL" target="_blank">
-          the Discord chat
+          Discord?
         </a>
       </li>
       <li>
