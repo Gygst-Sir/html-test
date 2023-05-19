@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Welcome to Vue</title>
+  <title>Hello Mom</title>
   <script src="https://unpkg.com/vue"></script>
 </head>
 <body>
