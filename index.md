@@ -2,11 +2,10 @@
 <html>
 <head>
   <title>Welcome</title>
-  <script src="https://unpkg.com/vue"></script>
+ 
 </head>
 <body>
-  <div id="app">
-    <img src="https://vuejs.org/images/logo.png" alt="Vue logo">
+ 
     <h1>\{{ greeting }}</h1>
     <ul>
       <li>
@@ -34,16 +33,7 @@
     var app = new Vue({
       el: '#app',
       data: {
-        greeting: 'Welcome to your Vue.js app!',
-        docsURL: 'http://vuejs.org/guide/',
-        discordURL: 'https://chat.vuejs.org',
-        forumURL: 'http://forum.vuejs.org/'
-      },
-      methods: {
-        humanizeURL: function (url) {
-          return url
-            .replace(/^https?:\/\//, '')
-            .replace(/\/$/, '')
+       
         }
       }
     })
