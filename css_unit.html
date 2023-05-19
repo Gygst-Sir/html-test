@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit of CSS</title>
+    <style>
+        body{
+            font-size: 10px;
+        }
+        /* Relative unit         */
+        div{
+            font-size: 2em;/*2 of root element*/
+        }
+    </style>
+</head>
+<body>
+    <div>
+        test1 (2 * 10 = 20px)
+        <div>
+            test2 (2 * 20 = 40px)
+            <div>
+                test3 (80px)
+                <div>
+                    test4 (160px)
+                </div>
+            </div>
+        </div>
+    </div>
+    <span style="font-size: 80px;"><u>by blk</u></span>
+</body>
+</html>
